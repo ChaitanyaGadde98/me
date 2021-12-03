@@ -1,5 +1,5 @@
 .card-center {
-    margin-top: 8%;
+    /* margin-top: 8%; */
     margin-left: 10%;
     width: 80%;
     height: 78%;
@@ -61,8 +61,18 @@
     height: 80% !important;
 }
 
+.pub-div:hover {
+    /* color: #0275d8 !important; */
+    background-color: white !important;
+    transform: scale(1.005);
+}
+
+.pub-div {
+    background-color: white !important;
+}
+
 .list-group-item:hover {
-    background-color: #0275d8;
-    color: white;
+    /* background-color: #0275d8; */
+    color: #0275d8;
     cursor: pointer;
 }
