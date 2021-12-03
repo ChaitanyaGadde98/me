@@ -1,0 +1,37 @@
+.card-center {
+    margin-top: 8%;
+    margin-left: 10%;
+    width: 80%;
+    height: 78%;
+    position: absolute !important;
+    opacity: 2 !important;
+  }
+/* 
+body{
+    background--color:rgb(180, 180, 180) ;
+    background: url('../img/background_image.png')  0 0.5 !important;
+    opacity: 0.95;
+
+} */
+
+.fit-center {
+    margin-top: 7%;
+    margin-left: 10%;
+    width: 90%;
+    height: 100%;
+    position: absolute !important;
+}
+
+.exp-role{
+   padding-left: 3% !important;
+   padding-top: 1%;
+}
+
+.icon-size{
+    size: 100px !important;
+}
+
+.bottom-icon:hover {
+    transform: scale(1.3);
+    color: #0275d8;
+}
