@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Portfolio</title>
     <!-- MDB icon -->
-    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="img/user.ico" type="image/x-icon" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
     <!-- Google Fonts Roboto -->
@@ -15,14 +15,30 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
     />
     <link rel="stylesheet" href="css/custom.css" />
-    <link rel="stylesheet" href="css/bs-stepper.css" />
     <!-- MDB -->
     <link rel="stylesheet" href="css/mdb.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
-  <body background="img/background_image.png", style="opacity: 0.5;">
+  <body>
 
-    <div class="card card-center">
+
+
+
+
+
+
+
+
+
+    <div class="bg-image" style="background-image: url('img/bg5.png'); height: 100vh;">
+      <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white">
+  <h1 class="mb-3 h1" style="text-shadow: 1px 1px 1px black !important"><strong>Chaitanyavishnu Gadde</strong></h1>
+</div>
+      <div class="mask" style="background-color: rgba(82, 190, 223, 0.2);">
+
+
+
+    <div class="card card-center custom-card">
       <div class="card-header">
       
 
@@ -73,7 +89,7 @@
       role="tab"
       aria-controls="ex5-pills-4"
       aria-selected="false"
-      ><i class="fas fa-award fa-lg"></i>&ensp;Publication and Projects</a
+      ><i class="fas fa-award fa-lg"></i>&ensp;Publication & Projects</a
     >
   </li>
   <li class="nav-item" role="presentation">
@@ -101,7 +117,68 @@
     aria-labelledby="ex5-tab-1"
   >
   <h3 class="text-muted">About</h3>
-  <br>
+  
+
+  <div class="row" >
+    <div class="col-sm-3 card-body text-center">
+      <img src="img/headshot.png" class="card-img-top" alt="..."  style="border-radius: 10px;"/>
+          <br>
+          <br>
+          <a href="#" class="btn btn-primary" ><i class="fas fa-file fa-xl"></i>&emsp;Resume</a>
+
+          </p>
+
+      </div>  
+    
+    <div class="col-sm-6 card-body">
+
+
+          <h5 class="card-title">Hello, how are you..?</h5>
+          <p></p>
+          <p class="card-text">
+            I'm <b>Chaitanyavishnu Srinivas Gadde</b>, currently working as a Data Scientist at AICOE, Intralinks - R&D, Hyderabad. My current research includes transformer models, seg-to-seq models, etc. My past research was on a weakly-supervised training framework and snorkel.
+            </p><p class="card-text">  
+            Previously, I worked as a Research Assistant Intern at the Artificial Intelligence and Robotics Laboratory (AIRL) headed by Prof. Suresh Sundaram at the Department of Aerospace Engineering, Indian Institue of Science, Bengaluru. I have developed and published a low-latency Sense and Avoid algorithm for quadrotor called <i>"Fast Obstacle Avoidance Motion (FOAM)"</i>
+                      </p>
+          
+
+    </div>
+    <div class="col-sm-3 card-body">
+
+        
+          <h5 class="text-center">Research Domains</h5>
+          <ul class="list-group"> 
+            <li class="list-group-item"> Artificial Intelligence</li>
+            <li class="list-group-item"> Machine Learning</li>
+            <li class="list-group-item"> Deep Learning</li>
+            <li class="list-group-item"> Natural Language Processing</li>
+            <li class="list-group-item"> Computer Vision</li>
+            <li class="list-group-item"> Computer Vision</li>
+          </ul>
+        </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </div>
   <div
     class="tab-pane fade"
@@ -253,7 +330,8 @@
             href="#list-profile"
             role="tab"
             aria-controls="list-profile"
-            >Academic Internship</a
+            >Research
+             Internship</a
           >
           <a
             class="list-group-item list-group-item-action"
@@ -262,7 +340,7 @@
             href="#list-messages"
             role="tab"
             aria-controls="list-messages"
-            >Startup Internship</a
+            >Industry Internship</a
           >
         </div>
       </div>
@@ -743,6 +821,40 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- Button trigger modal -->
 <!-- <button  onclick="hide_video('https://drive.google.com/file/d/1zEmqKZLK894YDVWda-IIMhoRtWme1JFe/preview')"
   type="button"
@@ -765,7 +877,7 @@
 </div>
 <!-- Pills content -->
 
-<div class="card-footer text-center text-muted"><i class="fab fa-github fa-2x bottom-icon"></i> &emsp;&emsp;<i class="fab fa-linkedin-in fa-2x bottom-icon"></i> &emsp;&emsp;<i class="fas fa-envelope fa-2x bottom-icon"></i> </div>
+<div class="card-footer text-center text-muted"><a href="https://github.com/ChaitanyaGadde98" target="_blank" ><i class="fab text-muted fa-github fa-2x bottom-icon"></i> </a>&emsp;&emsp;<a href="https://in.linkedin.com/in/chaitanyagadde98" target="_blank" ><i class="fab text-muted fa-linkedin-in fa-2x bottom-icon"></i> </a>&emsp;&emsp;<i class="fas text-muted fa-envelope fa-2x bottom-icon"></i> </div>
 
 
 
@@ -808,6 +920,10 @@ aria-hidden="true"
       <button type="button" class="btn btn-primary" data-mdb-dismiss="modal">Close</button>
     </div>
   </div>
+</div>
+</div>
+
+
 </div>
 </div>
     <!-- MDB -->
