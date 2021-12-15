@@ -94,7 +94,7 @@
       ><i class="fas fa-award fa-lg"></i>&ensp;Publication & Projects</a
     >
   </li>
-  <li class="nav-item" role="presentation">
+  <!-- <li class="nav-item" role="presentation">
     <a
       class="nav-link"
       id="ex5-tab-5"
@@ -105,7 +105,7 @@
       aria-selected="false"
       ><i class="fas fa-cogs fa-lg"></i>&ensp;Skills</a
     >
-  </li>
+  </li> -->
 </ul>
 </div>
 <!-- Pills navs -->
@@ -126,7 +126,7 @@
       <img src="img/headshot.png" class="card-img-top" alt="..."  style="border-radius: 10px;"/>
           <br>
           <br>
-          <a href="#" class="btn btn-primary" ><i class="fas fa-file fa-xl"></i>&emsp;Resume</a>
+          <a href="#" onclick="hide_video('https://drive.google.com/file/d/1WtDrWduUlrVJmGItqTI6P-4ssm2a2oRw/preview')" data-mdb-toggle="modal" data-mdb-target="#modal1" class="btn btn-primary" ><i class="fas fa-file fa-xl"></i>&emsp;Resume</a>
 
           </p>
 
@@ -155,7 +155,7 @@
             <li class="list-group-item"> Deep Learning</li>
             <li class="list-group-item"> Natural Language Processing</li>
             <li class="list-group-item"> Computer Vision</li>
-            <li class="list-group-item"> Computer Vision</li>
+            <!-- <li class="list-group-item"> Computer Vision</li> -->
           </ul>
         </div>
   </div>
@@ -508,7 +508,7 @@
                     <li> Developed a low-latency perception algorithm using multi-sensor fusion for autonomous operation of quadcopter in an unknown cluttered environment.</li>
                     <li> The key advantages of this approach are the low-computational latency of the perception-action algorithm for a fast-moving small quadcopter.</li>
                     <li> The performance of the FOAM is evaluated in a simulated environment using AIRSIM and also in a real environment with a custom-designed drone.</li>
-                    <p class="text-center"><small class="text-primary"> <a href="https://arxiv.org/abs/2109.09159" target="_blank" >[Publication Link]</a> &emsp; <a href="#" onclick="hide_video('https://drive.google.com/file/d/1zEmqKZLK894YDVWda-IIMhoRtWme1JFe/preview')" data-mdb-toggle="modal" data-mdb-target="#modal1">[Video Link]</a></small></p>
+                    <p class="text-center"><small class="text-primary"> <a href="https://arxiv.org/abs/2109.09159" target="_blank" >[Publication Link]</a> &emsp; <a href="#" onclick="hide_video('https://drive.google.com/file/d/1zceyuZPijGPHbA0AFBTRDDQIiKQWurSx/preview')" data-mdb-toggle="modal" data-mdb-target="#modal1">[Video Link]</a></small></p>
                   </ul>
                   
                 </div>
@@ -914,7 +914,7 @@ aria-hidden="true"
 <div class="modal-dialog modal-xl">
   <div class="modal-content">
     <div class="modal-header">
-      <h5 class="modal-title" id="modal1Label">Modal title</h5>
+      <h5 class="modal-title" id="modal1Label">Video</h5>
       <button
         type="button"
         class="btn-close"
@@ -923,8 +923,6 @@ aria-hidden="true"
       ></button>
     </div>
     <div class="modal-body" id="project_video">
-      <!-- <iframe id="Geeks3" width="1080" height="640" src="https://drive.google.com/drive/folders/19Jq-l9fCjwckAdY_2QA_AMLQr8jFe8gh"frameborder="0" allowfullscreen></iframe> -->
-      
       <div style="width: 80px; height: 80px; position: absolute; opacity: 0; right: 0px; top: 0px;">&nbsp;</div>
     </div>
     <div class="modal-footer">
@@ -944,7 +942,7 @@ aria-hidden="true"
     <script type="text/javascript" src="js/bs-stepper.min.js"></script>
     <script>
       function hide_video(url){
-        document.getElementById("project_video").innerHTML=`<iframe src=${url} width="100%" height="350px" allow="autoplay" controls controlsList="nodownload" allowfullscreen> </iframe>`
+        document.getElementById("project_video").innerHTML=`<iframe src=${url} width="100%" height="600px" allow="autoplay" controls controlsList="nodownload" allowfullscreen> </iframe>`
       }
     $('#modal1').on('hidden.bs.modal', function () {
         document.getElementById("project_video").innerHTML=""
