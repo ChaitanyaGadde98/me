@@ -12,6 +12,10 @@
 
 } */
 
+.justified-text {
+    text-align: justify;
+  }
+
 .card-body {
     overflow-y: auto;
     overflow-x: hidden;

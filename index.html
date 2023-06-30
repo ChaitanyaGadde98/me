@@ -27,9 +27,10 @@
     <!-- MDB -->
     <link rel="stylesheet" href="css/mdb.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   </head>
   <body>
-
+    
 
 
 
@@ -40,6 +41,49 @@
 
 
     <div class="bg-image" style="background-image: url('img/bg5.png'); height: 100vh;">
+
+
+      <!-- <div class="bg-image">
+        <div class="blur-overlay"></div>
+      </div> -->
+
+      <!-- <style>
+
+.bg-image {
+  position: relative;
+  height: 100vh;
+  background-image: url('img/bg5.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(8px);
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  /* Other styles for your content */
+}
+
+      </style> -->
+
+
+
+
+
+
+
+
+
       <!-- <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white">
   <h1 class="mb-3 h1" style="text-shadow: 1px 1px 1px black !important"><strong>Chaitanyavishnu Srinivas Gadde</strong></h1>
 </div> -->
@@ -100,10 +144,10 @@
       role="tab"
       aria-controls="ex5-pills-4"
       aria-selected="false"
-      ><i class="fas fa-award fa-lg"></i>&ensp;Publication & Projects</a
+      ><i class="fas fa-award fa-lg"></i>&ensp; Academic Projects</a
     >
   </li>
-  <!-- <li class="nav-item" role="presentation">
+  <li class="nav-item" role="presentation">
     <a
       class="nav-link"
       id="ex5-tab-5"
@@ -111,6 +155,19 @@
       href="#ex5-pills-5"
       role="tab"
       aria-controls="ex5-pills-5"
+      aria-selected="false"
+      ><i class="fas fa-cogs fa-lg"></i>&ensp;Research & Publications</a
+    >
+  </li>
+
+  <!-- <li class="nav-item" role="presentation">
+    <a
+      class="nav-link"
+      id="ex5-tab-6"
+      data-mdb-toggle="pill"
+      href="#ex5-pills-6"
+      role="tab"
+      aria-controls="ex5-pills-6"
       aria-selected="false"
       ><i class="fas fa-cogs fa-lg"></i>&ensp;Skills</a
     >
@@ -135,7 +192,7 @@
       <img src="img/headshot.png" class="card-img-top" alt="..."  style="border-radius: 10px;"/>
           <br>
           <br>
-          <a href="#" onclick="hide_video('https://drive.google.com/file/d/1il2s-U4KuvZvAK_Yl1yrKhi-FCWaQOfv/preview')" data-mdb-toggle="modal" data-mdb-target="#modal1" class="btn btn-primary" ><i class="fas fa-file fa-xl"></i>&emsp;Resume</a>
+          <a href="#" onclick="hide_video('https://drive.google.com/file/d/1tJeuTJWqxTLZZsrrBVhzrLZcvupcXazT/preview')" data-mdb-toggle="modal" data-mdb-target="#modal1" class="btn btn-primary" ><i class="fas fa-file fa-xl"></i>&emsp;Resume</a>
 
           </p>
 
@@ -144,12 +201,13 @@
     <div class="col-sm-6 card-body">
 
 
-          <h5 class="card-title">Hello, how are you..?</h5>
+          <h5 class="card-title">Hello, how are you doing..?</h5>
           <p></p>
-          <p class="card-text">
-            I'm <b>Chaitanyavishnu Srinivas Gadde</b>, currently working as a Data Scientist at AICOE, Intralinks - R&D, Hyderabad. My current research includes transformer models, seg-to-seq models, etc. My past research was on a weakly-supervised training framework and snorkel.
-            </p><p class="card-text">  
-            Previously, I worked as a Research Assistant Intern at the Artificial Intelligence and Robotics Laboratory (AIRL) headed by Prof. Suresh Sundaram at the Department of Aerospace Engineering, Indian Institue of Science, Bengaluru. I have developed and published a low-latency Sense and Avoid algorithm for quadrotor called <i>"Fast Obstacle Avoidance Motion (FOAM)"</i>
+          <p class="card-text justified-text">
+            Hello, I'm <b>Chaitanya</b>, a Computer Science graduate student at Georgia State University. I specialize in data science, machine learning, NLP, and computer vision AI, backed by a rich technical background. I'm currently applying these skills as a Graduate Research Assistant at the MORSE Studio Lab while pursuing my academics. My work involves leveraging advanced AI and ML models to innovate in areas like hand rehabilitation and stroke survivor care.
+            </p>
+            <p class="card-text justified-text">  
+              With previous experience as a Data Scientist at SS&C Intralinks and a Research Assistant at the Indian Institute of Science, I've been able to drive impactful solutions and improvements. My innovative academic projects and published research papers echo my passion and skill in my field. Actively seeking full-time opportunities, I am eager to apply my technical expertise, hands-on experience, and innovative thinking to make substantial contributions in data science and AI, all while fostering the growth of the organization I join and advancing our collective digital future.
                       </p>
           
 
@@ -159,6 +217,7 @@
         
           <h5 class="text-center">Research Domains</h5>
           <ul class="list-group"> 
+            <li class="list-group-item"> Data Science</li>
             <li class="list-group-item"> Artificial Intelligence</li>
             <li class="list-group-item"> Machine Learning</li>
             <li class="list-group-item"> Deep Learning</li>
@@ -200,14 +259,58 @@
   <h3 class="text-muted">Academics</h3>
   <br>
     <div class="accordion text-center" id="accordionExample">
+
+
+
+
       <div class="accordion-item">
-        <h2 class="accordion-header" id="headingOne">
+        <h2 class="accordion-header" id="headingZero">
           <button
             class="accordion-button"
             type="button"
             data-mdb-toggle="collapse"
-            data-mdb-target="#collapseOne"
+            data-mdb-target="#collapseZero"
             aria-expanded="true"
+            aria-controls="collapseZero"
+          >
+            Master of Science (2022 - 2023)
+          </button>
+        </h2>
+        <div
+          id="collapseZero"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingZero"
+          data-mdb-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            
+            <div class="row">
+              <div class="col-md-6">
+                <p>Computer Science<br> <b>Georgia State University, Atlanta, GA, United States</b> </p>
+              </div>
+              <div class="col-md-6">
+                <p>GPA: <b>4.0/4.0</b> – <i>Distinction</i></p>
+              </div>
+            </div>
+
+
+
+
+          </div>
+          
+        </div>
+      </div>
+
+
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#collapseOne"
+            aria-expanded="false"
             aria-controls="collapseOne"
           >
             Bachelor of Technology (2016 - 2020)
@@ -215,7 +318,7 @@
         </h2>
         <div
           id="collapseOne"
-          class="accordion-collapse collapse show"
+          class="accordion-collapse collapse"
           aria-labelledby="headingOne"
           data-mdb-parent="#accordionExample"
         >
@@ -226,7 +329,7 @@
                 <p>Department of Computer Science & Engineering <br> <b>Rajiv Gandhi University of Knowledge Technologies, Nuzvid, AP, India</b> </p>
               </div>
               <div class="col-md-6">
-                <p>GPA: <b>8.97/10</b> – <i>Distinction</i></p>
+                <p>GPA: <b>9.0/10</b> – <i>Distinction</i></p>
               </div>
             </div>
 
@@ -234,6 +337,7 @@
 
 
           </div>
+          
         </div>
       </div>
       <div class="accordion-item">
@@ -325,11 +429,23 @@
     <div class="row">
       <div class="col-2">
         <div class="list-group" id="list-tab" role="tablist">
+
+
           <a
             class="list-group-item list-group-item-action active"
             id="list-home-list"
             data-mdb-toggle="list"
             href="#list-home"
+            role="tab"
+            aria-controls="list-home"
+            >Graduate Research Assistatnt</a
+          >
+
+          <a
+            class="list-group-item list-group-item-action"
+            id="list-job-list"
+            data-mdb-toggle="list"
+            href="#list-job"
             role="tab"
             aria-controls="list-home"
             >Full Time</a
@@ -355,6 +471,8 @@
           >
         </div>
       </div>
+
+
       <div class="col-10">
         <div class="tab-content" id="nav-tabContent">
           <div
@@ -371,106 +489,213 @@
           <div class="card border">
           <div class="row exp-role">
             <div class="col-md-8">
-              <h4> <b>Data Scientist</b> </h4>
-              <p class="text-muted"><b> Intralinks - R&D, Hyderabad</b></p>
+              <h4> <b>Graduate Research Assistant</b> </h4>
+              <p class="text-muted"><b> MORSE Studio Lab - Georgia State University, Atlanta</b></p>
             </div>
             <div class="col-md-4">
-              <i>Jul 2020 - Present</i>
+              <i>August 2022 - Present</i>
+              <p class="text-muted"> Guide: Prof. Ashwin Ashok</p>
             </div>
           </div>
-          
-          <div class="accordion" id="accordionExp1">
+          <div class="accordion" id="accordionExp0">
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingExp1">
+              <h2 class="accordion-header" id="headingExp0">
                 <button
                   class="accordion-button"
                   type="button"
                   data-mdb-toggle="collapse"
-                  data-mdb-target="#collapseOneExp1"
+                  data-mdb-target="#collapseOneExp0"
                   aria-expanded="true"
-                  aria-controls="collapseOneExp1"
+                  aria-controls="collapseOneExp0"
                 >
-                Weakly Supervised Training Framework using Snorkel-Metal for text classification
+                Virtual Camera Based Hand Rehabilitaion Application - (mHandRehab)
                 </button>
               </h2>
               <div
-                id="collapseOneExp1"
+                id="collapseOneExp0"
                 class="accordion-collapse collapse show"
-                aria-labelledby="headingExp1"
-                data-mdb-parent="#accordionExp1"
+                aria-labelledby="headingExp0"
+                data-mdb-parent="#accordionExp0"
               >
-                <div class="accordion-body">
+                <div class="accordion-body justified-text">
                   <ul>
-                    <li> Developed a Weakly Supervised Training Framework that labels the unlabelled dataset using custom Labelling Functions (LF).</li>
-                    <li> Trained the Snorkel-Metal using LF to generate the probabilistic labels for the dataset, upon which transformer model is trained.</li>
-                    <li>The novel aspect of this approach is to generate labeled dataset and then train on it.</li>
+                    <li> Crafted an advanced AI/ML-based hand rehabilitation system that utilized data segmentation techniques like Kmeans Clustering and Auto Encoders, optimizing patient care. Integrated Google’s Mediapipe hand recognition model for accurate and reliable hand tracking and analysis, enhancing the system’s performance.</li>
+                    <li> Created a jerkiness analysis baseline for stroke survivors, improving hand function quality assessment and rehab strategy development.</li>
+                    <li>Designed and launched a real-time web application on Azure, integrating SQL for data storage, offering live hand tracking, live NJS score line charts and user feedback with 95% accuracy.</li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingExp1Two">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-mdb-toggle="collapse"
-                  data-mdb-target="#collapseExp1Two"
-                  aria-expanded="false"
-                  aria-controls="collapseExp1Two"
-                >
-                Document Classification using Transformers
-                </button>
-              </h2>
-              <div
-                id="collapseExp1Two"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingExp1Two"
-                data-mdb-parent="#accordionExp1"
-              >
-                <div class="accordion-body">
-                  <ul>
-                    <li> Implemented a custom trained Transformer model (Roberta-large) to classify the documents into desired number of categories.</li>
-                    <li> The Roberta-large Transformer model is trained on custom dataset using various hyper parameters.</li>
-                    <li> Developed an API service using flask for inference of the document classifier and deployed it on AWS EC2 instance.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingExp1Three">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-mdb-toggle="collapse"
-                  data-mdb-target="#collapseExp1Three"
-                  aria-expanded="false"
-                  aria-controls="collapseExp1Three"
-                >
-                Abstractive Text Summarizer using Transformers
-                </button>
-              </h2>
-              <div
-                id="collapseExp1Three"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingExp1Three"
-                data-mdb-parent="#accordionExp1"
-              >
-                <div class="accordion-body">
-                  <ul>
-                    <li> Implemented an absractive text summarizer using Transformer model (T5).</li>
-                    <li> The abstractive text summarizer model is fine-tune on BillSum Dataset.</li>
-                    <li> Developed an API service using flask for inference of the abstractive text summarizer model and eployed it on AWS EC2 instance.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+            
           </div>
-
         </div>
 
 
           </div>
           
+
+
+
+
+
+
+
+
+
+          <div
+          class="tab-pane fade"
+          id="list-job"
+          role="tabpanel"
+          aria-labelledby="list-job-list"
+        >
+        <div class="card border">
+        <div class="row exp-role">
+          <div class="col-md-8">
+            <h4> <b>Data Scientist</b> </h4>
+            <p class="text-muted"><b> Intralinks - R&D, Hyderabad</b></p>
+          </div>
+          <div class="col-md-4">
+            <i>Jul 2020 - Jul 2022</i>
+          </div>
+        </div>
+        <div class="accordion" id="accordionExp1">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingExp1">
+              <button
+                class="accordion-button"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#collapseOneExp1"
+                aria-expanded="true"
+                aria-controls="collapseOneExp1"
+              >
+              Docu360 - AI-Driven Document Analysis and Knowledge Graph Generation
+              </button>
+            </h2>
+            <div
+              id="collapseOneExp1"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingExp1"
+              data-mdb-parent="#accordionExp1"
+            >
+              <div class="accordion-body justified-text">
+                <ul>
+                  <li> Leveraged data analysis, machine learning, and natural language processing to build AI services using advanced NLP models like RoBERTA, GPT, BERT, T5, and ELMo, driving document analysis, summarization, and the creation of knowledge graphs and recommendation systems.</li>
+                  <li> Employed statistical modeling and optimization techniques, including LLM tuning, to enhance AI model performance, resulting in a 90% accuracy in predictive modeling.</li>
+                  <li>Orchestrated end-to-end AI model development, from data cleaning/preprocessing to validation, leveraging big data frameworks like Kubernetes and Flask for efficient data pipeline creation and automated deployment.</li>
+                  <li>Facilitated cross-functional collaboration for production systems implementation, adhering to software development methodologies like Agile, and used version control systems like Git.</li>
+                  <li>Kept up-to-date with the latest AI and machine learning advancements, fostering innovative solution development.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingExp1Two">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#collapseExp1Two"
+                aria-expanded="false"
+                aria-controls="collapseExp1Two"
+              >
+              Weakly Supervised Training Framework using Snorkel-Metal for Text Classification
+              </button>
+            </h2>
+            <div
+              id="collapseExp1Two"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingExp1Two"
+              data-mdb-parent="#accordionExp1"
+            >
+              <div class="accordion-body justified-text">
+                <ul>
+                  <li> Constructed a Snorkel-based weakly supervised training framework, reducing manual labeling efforts and cost, leading to improved data governance.</li>
+                  <li> Devised custom labeling functions to label unlabeled datasets, thus transforming data integration processes.</li>
+                  <li> Employed Snorkel-Metal to generate probabilistic labels for the dataset, forming the basis for subsequent transformer model training, enhancing data modeling techniques.</li>
+                  <li>Innovated by generating a labeled dataset to train on, thereby incorporating an aspect of AI ethics into the project.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingExp1Three">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#collapseExp1Three"
+                aria-expanded="false"
+                aria-controls="collapseExp1Three"
+              >
+              Document Classification using Transformers
+              </button>
+            </h2>
+            <div
+              id="collapseExp1Three"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingExp1Three"
+              data-mdb-parent="#accordionExp1"
+            >
+              <div class="accordion-body justified-text">
+                <ul>
+                  <li> Utilized machine learning engineering to implement a custom-trained Roberta-large Transformer model, classifying documents into desired categories, thereby improving data architecture.</li>
+                  <li> Optimized the Transformer model using various hyperparameters, showcasing proficiency in hyperparameter tuning.</li>
+                  <li> Developed an API service using Python programming and Flask for inference of the document classifier and deployed it on an AWS EC2 instance, demonstrating competence in cloud computing and distributed computing frameworks.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingExp1Four">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#collapseExp1Four"
+                aria-expanded="false"
+                aria-controls="collapseExp1Four"
+              >
+              Abstractive Text Summarizer using Transformers
+              </button>
+            </h2>
+            <div
+              id="collapseExp1Four"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingExp1Four"
+              data-mdb-parent="#accordionExp1"
+            >
+              <div class="accordion-body justified-text">
+                <ul>
+                  <li> Implemented an abstractive text summarizer using the Transformer model (T5), demonstrating skills in natural language processing and text classification.</li>
+                  <li> Fine-tuned the abstractive text summarizer model on the BillSum Dataset, demonstrating the ability in topic modeling and language modeling.</li>
+                  <li> Built an API service for the inference of the summarizer model using Flask, deploying it on an AWS EC2 instance, reflecting proficiency in web development frameworks and AI engineering.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+      </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
           <div
             class="tab-pane fade"
             id="list-profile"
@@ -517,7 +742,7 @@
                     <li> Developed a low-latency perception algorithm using multi-sensor fusion for autonomous operation of quadcopter in an unknown cluttered environment.</li>
                     <li> The key advantages of this approach are the low-computational latency of the perception-action algorithm for a fast-moving small quadcopter.</li>
                     <li> The performance of the FOAM is evaluated in a simulated environment using AIRSIM and also in a real environment with a custom-designed drone.</li>
-                    <p class="text-center"><small class="text-primary"> <a href="https://ieeexplore.ieee.org/document/9622631" target="_blank" >[Publication Link]</a> &emsp; <a href="#" onclick="hide_video('https://drive.google.com/file/d/1zceyuZPijGPHbA0AFBTRDDQIiKQWurSx/preview')" data-mdb-toggle="modal" data-mdb-target="#modal1">[Video Link]</a></small></p>
+                    <p class="text-center"><small class="text-primary"> <a href="https://ieeexplore.ieee.org/document/9622631" target="_blank" >[Publication Link]</a> &emsp; <a href="#" onclick="hide_video('https://drive.google.com/file/d/1-DR5tRgnM9id_4xUS6sm2mPwI6QRMOoh/preview')" data-mdb-toggle="modal" data-mdb-target="#modal1">[Video Link]</a></small></p>
                   </ul>
                   
                 </div>
@@ -547,7 +772,7 @@
                     <li> Developed a perception algorithm using a monocular camera for an unmanned ground vehicle to identify the objects and mark the road boundaries for autonomous operations.</li>
                     <li> The YOLO algorithm is used to detect the objects in a path and the bounding values are recorded for the further process.</li>
                     <li> Various image processing techniques such as contour detection, feature extraction, masking, etc were used to automate the custom designed UGV.</li>
-                    <p class="text-center"><a href="#" onclick="hide_video('https://drive.google.com/file/d/1zEmqKZLK894YDVWda-IIMhoRtWme1JFe/preview')" data-mdb-toggle="modal" data-mdb-target="#modal1"><small class="text-primary">[Video Link]</small></a></p>
+                    <p class="text-center"><a href="#" onclick="hide_video('https://drive.google.com/file/d/1HJwmBlkFeK8tRuK-AldyhR3X1C14KZSi/preview')" data-mdb-toggle="modal" data-mdb-target="#modal1"><small class="text-primary">[Video Link]</small></a></p>
                   </ul>
                 </div>
               </div>
@@ -712,26 +937,7 @@
     role="tabpanel"
     aria-labelledby="ex5-tab-4"
   >
-  <h3 class="text-muted">Publication</h3>
-  <br>
-
   
-
-
-
-  <div class="list-group">
-    <a href="https://ieeexplore.ieee.org/document/9622631" target="_blank"  class="list-group-item list-group-item-action pub-div" aria-current="true">
-      <div class="d-flex w-100 justify-content-between">
-        <h5 class="mb-1">Fast Obstacle Avoidance Motion in SmallQuadcopter operation in a Cluttered Environment</h5>
-        <small>2021</small>
-        
-      </div>
-      <p class="mb-1">
-        IEEE International Conference on Electronics, Computing & Communication Technologies, 2021 &ensp;<i class="fas fa-file-alt fa-lg"></i>
-      </p>
-    </a>
-    <br>
-  </div>
   
     
 
@@ -758,7 +964,7 @@
               aria-expanded="true"
               aria-controls="collapseOnePro1"
             >
-            Personality assessment using facial features
+            Class Attendance System
             </button>
           </h2>
           <div
@@ -771,13 +977,13 @@
               <div class="row exp-role">
                 <div class="col-md-8">
                   
-                  <p class="text-muted"> Guide: Mr. K. K. Singh, Mr. Kumar Anurupam</p>
+                  <!-- <p class="text-muted"> Guide: Mr. K. K. Singh, Mr. Kumar Anurupam</p> -->
                 </div>
-                <div class="col-md-4"><i>Aug 2018 - Nov 2018</i></div>
+                <!-- <div class="col-md-4"><i>Aug 2018 - Nov 2018</i></div> -->
               </div>
               <ul>
-                <li> Developed an algorithm to detect the person’s face using Haar-Cascade classifier from a live stream.</li>
-                <li> It then extracts various features from the detected face to predict the personality using a regression model.</li>
+                <li> Designed a facial recognition-based attendance management solution using OpenCV, machine learning, and deployed it on Heroku with user-friendly front-end and spreadsheet recording.</li>
+                <li> Automated attendance recording for an instructor by capturing classroom pictures from multiple angles and uploading to a portal, resulting in a 95% accurate attendance spreadsheet generation and eliminating manual effort.</li>
               </ul>
               
             </div>
@@ -793,7 +999,7 @@
               aria-expanded="false"
               aria-controls="collapsePro1Two"
             >
-            Students activity monitoring system
+            NewsCategorizer: Real-time Topic Classification and Sentiment Analysis
             </button>
           </h2>
           <div
@@ -806,18 +1012,56 @@
               <div class="row exp-role">
                 <div class="col-md-8">
                   
-                  <p class="text-muted"> Guide: Mr. K. K. Singh, Mr. Kumar Anurupam</p>
+                  <!-- <p class="text-muted"> Guide: Mr. K. K. Singh, Mr. Kumar Anurupam</p> -->
                 </div>
-                <div class="col-md-4"><i>Dec 2018 – Apr 2018</i></div>
+                <!-- <div class="col-md-4"><i>Dec 2018 – Apr 2018</i></div> -->
               </div>
               <ul>
-                <li> Developed an algorithm which monitors the attentiveness of the students in a classroom.</li>
-                <li> The algorithm uses Haar-Cascade classifier to detect and classify the students’ facial features on the basis of attentiveness.</li>
-                <li> It is also integrated to a custom designed UI using Tkinter to display the real-time output.</li>
+                <li> Developed a real-time topic classification and sentiment analysis data science project using transformer and random forest models on a newspaper article dataset.</li>
+                <li> Created a web application with News API to provide categorized news content.</li>
               </ul>
             </div>
           </div>
         </div>
+        
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingPro1Three">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#collapsePro1Three"
+              aria-expanded="false"
+              aria-controls="collapsePro1Three"
+            >
+            Personality assessment using facial features
+            </button>
+          </h2>
+          <div
+            id="collapsePro1Three"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingPro1Three"
+            data-mdb-parent="#accordionPro1"
+          >
+            <div class="accordion-body">
+              <div class="row exp-role">
+                <div class="col-md-8">
+                  
+                  <!-- <p class="text-muted"> Guide: Mr. K. K. Singh, Mr. Kumar Anurupam</p> -->
+                </div>
+                <!-- <div class="col-md-4"><i>Dec 2018 – Apr 2018</i></div> -->
+              </div>
+              <ul>
+                <li>A machine learning algorithm was devised to detect faces from a live stream using the HaarCascade classifier.</li>
+                <li> The facial features extracted were utilized to predict personality through a regression model. As such, an individual’s personality and mood can be inferred by analyzing a picture of them..</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
       </div>
     </div>
 
@@ -834,8 +1078,39 @@
     role="tabpanel"
     aria-labelledby="ex5-tab-5"
   >
-  <h3 class="text-muted">Skills</h3>
+
+  <h3 class="text-muted">Publications</h3>
   <br>
+  <div class="list-group">
+    <a href="#" target="_blank"  class="list-group-item list-group-item-action pub-div" aria-current="true">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">Developing and Characterizing the Baseline Standard to Evaluate Virtual Camera Based Hand Rehabilitation (Submitted)</h5>
+        <small>2023</small>
+        
+      </div>
+      <p class="mb-1">
+        IEEE/ACM International Conference on Connected Health: Applications, Systems and Engineering Technologies, 2023 &ensp;<i class="fas fa-file-alt fa-lg"></i>
+      </p>
+    </a>
+    <br>
+  </div>
+  <div class="list-group">
+    <a href="https://ieeexplore.ieee.org/document/9622631" target="_blank"  class="list-group-item list-group-item-action pub-div" aria-current="true">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">Fast Obstacle Avoidance Motion in SmallQuadcopter operation in a Cluttered Environment</h5>
+        <small>2021</small>
+        
+      </div>
+      <p class="mb-1">
+        IEEE International Conference on Electronics, Computing & Communication Technologies, 2021 &ensp;<i class="fas fa-file-alt fa-lg"></i>
+      </p>
+    </a>
+    <br>
+  </div>
+
+
+  <!-- <h3 class="text-muted">Skills</h3>
+  <br> -->
 
 
 
